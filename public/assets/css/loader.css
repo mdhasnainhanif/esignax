@@ -1,0 +1,24 @@
+/* Loader styles */
+#loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loader-wrapper.hidden {
+    display: none;
+}
+
+#loader {
+    width: 550px; /* Adjust the size as needed */
+    height: 550px; /* Adjust the size as needed */
+    background: url('../images/loader.gif') no-repeat center center;
+    background-size: contain; /* Ensure the image is contained within the div */
+}
