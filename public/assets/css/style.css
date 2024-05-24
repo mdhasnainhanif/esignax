@@ -684,7 +684,8 @@ p {
 }
 .offer-section .offer_content p {
     margin-bottom: 42px;
-    padding: 0 135px;
+    /* padding: 0 135px; */
+    padding: 0 10px;
 }
 .offer-section .offer_boxcontent .upper_portion {
     position: relative;
@@ -3160,7 +3161,7 @@ p {
 .nav_anchor {
     font-size: 20px !important;
     font-weight: 900;
-    color: var(--e-global-color-secondary) !important;
+    color: var(--e-global-color-secondary);
 }
 .nav_anchor:hover {
     color: var(--e-global-color-secondary) !important;
@@ -3379,9 +3380,59 @@ ul.submenu-wrapper {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     transform-origin: 0% 0%;
 }
+@media (max-width: 768px) {
+    ul.submenu-wrapper {
+        top: 150px;
+    }
+    .nav_anchor{
+        color: #9c68ac !important;
+        padding-left: 0px !important;
+    }
+    .navbar-nav .nav-item a{
+        color: #9c68ac !important;
+        padding-left: 0px !important;
+
+    }
+    .offer-section .offer_boxcontent .lower_portion_wrapper {
+        min-height: 180px;
+    }
+    .navbar-nav .active > a {
+        color: #fff !important;
+    }
+}
 .fleet_li:hover > .submenu-wrapper {
     -webkit-transform: rotateX(0deg);
     transform: rotateX(0deg);
     opacity: 1;
     visibility: visible;
+}
+.industries_card {
+    min-height: 215px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.industries_card a:hover {
+    text-decoration: none;
+}
+.communications_slide_img{
+    width: 200px !important;
+    margin: 0 auto;
+    display: block;
+}
+.blog-section .item{
+    box-shadow: 2px 2px 5px #9c68ac9a;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 15px;
+    min-height: 300px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.com_featured_card{
+    min-height: 210px;
+    border-radius: 13px;
 }

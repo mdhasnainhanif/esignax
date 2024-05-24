@@ -288,7 +288,25 @@
                                         <span class="mb-0">Home</span>
                                         <figure class="mb-0 arrow"><img src="{{asset('assets/images/button-arrow.png')}}"
                                                 alt="" class="img-fluid" /></figure>
-                                        <span class="mb-0 box_span">Contact</span>
+                                        <span class="mb-0 box_span">Solutions</span>
+                                    </div>
+                                @elseif (Route::currentRouteName() == 'accounting-and-tax')
+                                    <h1 class="text_gradient">Accounting And Tax</h1>
+                                    <p>Meet your clients' legal, financial and tax needs faster with Docudash for accounting and tax</p>
+                                    <div class="box">
+                                        <span class="mb-0">Home</span>
+                                        <figure class="mb-0 arrow"><img src="{{asset('assets/images/button-arrow.png')}}"
+                                                alt="" class="img-fluid" /></figure>
+                                        <span class="mb-0 box_span">Accounting and Tax</span>
+                                    </div>
+                                @elseif (Route::currentRouteName() == 'communications-and-media')
+                                    <h1 class="text_gradient">Digitally Redefine The Customer Experience</h1>
+                                    <p>Docudash for communications and media</p>
+                                    <div class="box">
+                                        <span class="mb-0">Home</span>
+                                        <figure class="mb-0 arrow"><img src="{{asset('assets/images/button-arrow.png')}}"
+                                                alt="" class="img-fluid" /></figure>
+                                        <span class="mb-0 box_span">Communications and Media</span>
                                     </div>
                                 @endif
 

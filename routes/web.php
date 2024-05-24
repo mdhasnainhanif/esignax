@@ -96,3 +96,11 @@ Route::get('/contact', function () {
 Route::get('/solutions', function () {
     return view('solutions');
 })->name('solutions');
+
+Route::get('/accounting-and-tax', function () {
+    return view('accounting-and-tax');
+})->name('accounting-and-tax');
+
+Route::get('/communications-and-media', function () {
+    return view('communications-and-media');
+})->name('communications-and-media');

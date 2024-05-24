@@ -23,7 +23,7 @@
                                 aria-expanded="false">Pricing</a>
                         </li>
                         <li class="nw_submenu">
-                            <a class="dropdown-toggle drop_a" href="" role="button"
+                            <a class="dropdown-toggle drop_a" href="javascript:void(0);" role="button"
                                 aria-haspopup="true" aria-expanded="false">Solutions</a>
                             <ul class="wide-sub-menu">
                                 <div class="row">
@@ -38,12 +38,12 @@
                                             <h4 class="wide-sub-menu-inner-main-heading">Solutions</h4>
                                             <div class="wide-sub-menu-inner-items">
                                                 <a class="wide-sub-menu-inner-item-box"
-                                                    href="https://esignax.com/for-individuals">
+                                                    href="{{route('for-individuals')}}">
                                                     <h4 class="wide-sub-menu-inner-item-box-heading">For Individuals
                                                     </h4>
                                                 </a>
                                                 <a class="wide-sub-menu-inner-item-box"
-                                                    href="https://esignax.com/for-businesses">
+                                                href="{{route('for-businesses')}}">
                                                     <h4 class="wide-sub-menu-inner-item-box-heading">For Businesses</h4>
                                                 </a>
                                             </div>
@@ -53,21 +53,21 @@
                                         <div class="wide-sub-menu-inner">
                                             <h4 class="wide-sub-menu-inner-main-heading">Explore</h4>
                                             <div class="wide-sub-menu-inner-items">
-                                                <a href="https://esignax.com/trust-and-security"
+                                                <a href="{{route('trust-and-security')}}"
                                                     class="wide-sub-menu-inner-item-box">
                                                     <h4 class="wide-sub-menu-inner-item-box-heading">Trust &amp;
                                                         Security</h4>
                                                     <p class="wide-sub-menu-inner-item-box-para">A relationship you can
                                                         trust</p>
                                                 </a>
-                                                <a href="https://esignax.com/customer-experience"
+                                                <a href="{{route('customer-experience')}}"
                                                     class="wide-sub-menu-inner-item-box">
                                                     <h4 class="wide-sub-menu-inner-item-box-heading">Customer Experience
                                                     </h4>
                                                     <p class="wide-sub-menu-inner-item-box-para">An experience people
                                                         love</p>
                                                 </a>
-                                                <a href="https://esignax.com/business-agility"
+                                                <a href="{{route('business-agility')}}"
                                                     class="wide-sub-menu-inner-item-box">
                                                     <h4 class="wide-sub-menu-inner-item-box-heading">Business Agility
                                                     </h4>
@@ -81,32 +81,32 @@
                                         <div class="wide-sub-menu-inner">
                                             <h4 class="wide-sub-menu-inner-main-heading">Use Cases</h4>
                                             <div class="wide-sub-menu-inner-items">
-                                                <a href="https://esignax.com/solutions/departments/human-resources"
+                                                <a href="{{route('human-resources')}}"
                                                     class="wide-sub-menu-inner-item-box">
                                                     <h4 class="wide-sub-menu-inner-item-box-heading">Human Resources
                                                     </h4>
                                                     <p class="wide-sub-menu-inner-item-box-para">Seamlessly manage the
                                                         employee lifecycle</p>
                                                 </a>
-                                                <a href="https://esignax.com/solutions/departments/legal"
+                                                <a href="{{route('legal')}}"
                                                     class="wide-sub-menu-inner-item-box">
                                                     <h4 class="wide-sub-menu-inner-item-box-heading">Legal</h4>
                                                     <p class="wide-sub-menu-inner-item-box-para">Reduce risk and drive
                                                         faster turnaround times</p>
                                                 </a>
-                                                <a href="https://esignax.com/solutions/departments/procurement"
+                                                <a href="{{route('procurement')}}"
                                                     class="wide-sub-menu-inner-item-box">
                                                     <h4 class="wide-sub-menu-inner-item-box-heading">Procurement</h4>
                                                     <p class="wide-sub-menu-inner-item-box-para">Transform the
                                                         procure-to-pay process</p>
                                                 </a>
-                                                <a href="https://esignax.com/solutions/departments/sales"
+                                                <a href="{{route('sales')}}"
                                                     class="wide-sub-menu-inner-item-box">
                                                     <h4 class="wide-sub-menu-inner-item-box-heading">Sales</h4>
                                                     <p class="wide-sub-menu-inner-item-box-para">Close deals faster,
                                                         increase productivity and delight your buyers</p>
                                                 </a>
-                                                <a href="https://esignax.com/solutions"
+                                                <a href="{{route('solutions')}}"
                                                     class="wide-sub-menu-inner-item-box">
                                                     <h4 class="wide-sub-menu-inner-item-box-heading">All Use Cases <i
                                                             class="fa fa-arrow-right" aria-hidden="true"></i></h4>

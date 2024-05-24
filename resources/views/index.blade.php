@@ -132,7 +132,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 article_padding">
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 article_padding mt-4 mt-md-0">
         <div class="offer_boxcontent">
           <div class="upper_portion">
             <figure class="mb-0"><img src="assets/images/offer-image2.jpg" class="article_img  w-100" alt="" /></figure>
@@ -151,7 +151,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 article_padding">
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 article_padding mt-4 mt-md-0">
         <div class="offer_boxcontent mb-0">
           <div class="upper_portion">
             <figure class="mb-0"><img src="assets/images/offer-image3.jpg" class="article_img  w-100" alt="" /></figure>
@@ -170,7 +170,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 article_padding">
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 article_padding mt-4 mt-md-0">
         <div class="offer_boxcontent mb-0">
           <div class="upper_portion">
             <figure class="mb-0"><img src="assets/images/offer-image3.jpg" class="article_img  w-100" alt="" /></figure>
